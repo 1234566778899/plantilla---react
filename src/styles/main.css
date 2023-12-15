@@ -1,0 +1,63 @@
+.menu {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+}
+
+.menu>div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.mapa {
+    margin-top: 10px;
+    min-height: 350px;
+    background-color: white;
+    border: 1px solid rgb(225, 225, 225);
+    overflow-x: auto;
+}
+
+.fila {
+    display: flex;
+}
+
+.celda {
+    flex-basis: 20px;
+    /* ancho inicial */
+    flex-shrink: 0;
+    height: 20px;
+    background-color: rgb(253, 253, 253);
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+
+.rojo {
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}
+.amarillo{
+    background-color: yellow;
+}
+.anaranjado{
+    background-color: orange;
+}
+.negro{
+    background-color: rgb(49, 49, 49);
+}
+.rosado{
+    background-color: pink;
+}
+
+/* <option value="1">Rojo</option>
+<option value="2">Azul</option>
+<option value="3">Verde</option>
+<option value="4">Amarillo</option>
+<option value="5">Anaranjado</option>
+<option value="6">Negro</option>
+<option value="7">Rosado</option> */
